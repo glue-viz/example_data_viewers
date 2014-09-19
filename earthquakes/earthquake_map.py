@@ -34,3 +34,9 @@ def show_world(axes, state):
     m.fillcontinents(color=GREEN, lake_color=BLUE, zorder=-2)
     m.drawmapboundary(fill_color=BLUE, zorder=-3)
     state.m = m
+
+
+@earthquake_map.select
+def select(roi, latitude, longitude, state):
+    x, y = state.m(longitude, latitude)
+    return roi.contains(x, y)
