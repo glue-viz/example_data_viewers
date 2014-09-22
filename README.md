@@ -9,7 +9,7 @@ for more information about building your own data viewer.
 If you come up with something cool, add it to this repository!
 
 ### [Mario Viewer](mario/)
-![Screenshot](mario_viewer/fast_vs_slow.png)
+![Screenshot](mario/fast_vs_slow.png)
 
 ### [Shot Chart](basketball_shotcharts/)
 ![Screenshot](basketball_shotcharts/screenshot.png)
