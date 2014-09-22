@@ -11,4 +11,4 @@ but instead can be downloaded here:
 
 [mario_data.csv (300MB)](https://www.dropbox.com/s/g2453fnfjg2rrjz/mario_data.csv?dl=0)
 
-You can run the demo by running mario_demo.py, or by running the mario.ipynb IPython notebook.
+You can run the demo by running mario_demo.py, or by running the [demo IPython notebook](http://nbviewer.ipython.org/urls/raw.github.com/glue-viz/example_data_viewers/master/mario/mario.ipynb).
