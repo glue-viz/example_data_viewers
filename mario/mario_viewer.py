@@ -35,7 +35,7 @@ def settings_changed(axes, time, run):
 
 @mario.plot_subset
 def plot_subset(axes, x, y, style):
-    axes.plot(x.values, y.values, mec='none', mfc=style.color,
+    axes.plot(x.values, y.values, mec=style.color, mfc=style.color,
               alpha=style.alpha, marker=style.marker,
               ms=style.markersize, ls='none')
 
